@@ -17,7 +17,7 @@ const Login = () => {
 				if (result.data === "Success") {
 					console.log("Login Bem-sucedido!");
 					alert("Login Bem-sucedido! Bem vindo(a) novamente");
-					navigate("/Dashboard");
+					navigate("/DriverStats");
 				} else {
 					alert("Incorrect password! Please try again.");
 				}
